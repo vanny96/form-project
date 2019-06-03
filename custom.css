@@ -3,9 +3,54 @@ body{
   background-color: #e7e7e7;
 }
 
+header{
+  height: 60px;
+}
+
+.header-right{
+  margin: 10px 25px;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.login-description{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.login-button{
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #0077C5;
+  border-radius: 4px;
+}
+
+.login-button a{
+  color: white;
+  text-decoration: none;
+}
+
+.login-button a:visited{
+  color: white;
+}
+
 .main-container{
   width: 20vw;
   margin: 0 auto;
+}
+
+body a{
+  text-decoration: none;
+  color: #0077C5;
+}
+
+body a:visited{
+  color: #0077C5;
+}
+
+body a:hover{
+  text-decoration: underline;
 }
 
 .form{
