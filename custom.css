@@ -1,0 +1,64 @@
+body{
+  font-family: sans-serif;
+  background-color: #e7e7e7;
+}
+
+.main-container{
+  width: 20vw;
+  margin: 0 auto;
+}
+
+.form{
+  color: #404040;
+  background-color: white;
+  padding: 10px 0px;
+  box-shadow: 0px 0px 3px gray;
+  margin: 30px auto;
+}
+
+.form input{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.form-element{
+  margin: 30px auto;
+  width: 60%;
+}
+
+.precaution{
+  margin: 30px auto;
+  text-align: center;
+  color: gray;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.captcha-warning{
+  margin: 30px auto;
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+}
+
+.description{
+  text-align: center;
+  margin: 20px 30px;;
+}
+
+.description h2{
+  font-size: 22px;
+  margin: 20px auto;
+}
+
+.description p{
+  font-size: 13px;
+}
+
+#sign-up{
+  padding: 15px 0px;
+  color: white;
+  background-color: #0077C5;
+  box-shadow: 0px 1px gray;
+  border-radius: 5px;
+}
